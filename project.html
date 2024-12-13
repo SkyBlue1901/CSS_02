@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project</title>
+    <style>
+        body{
+            font-family: Arial, Helvetica, sans-serif;
+        }
+        nav{
+            display: flex;
+            justify-content: space-between;
+        }
+        p.logo{
+            font-size:20px;
+            color:#0b459b;
+            font-weight:bold;
+            padding-left: 20px;
+        }
+        ul.menu
+        {
+            display:flex;
+            list-style-type: none;
+            align-items: center;
+            gap:20px;
+            font-size:12px;
+        }
+
+        p.action{
+            display:flex;
+            align-items: center;
+            font-size: 14px;
+            margin-right:20px;
+        }
+        main{
+            display: flex;
+            justify-content: space-between;
+            padding: 20px;
+        }
+        .left{
+            display: flex;
+            flex-direction: column;
+            width:50%;
+        }
+        .left button{
+            width: 100px;
+            color:whitesmoke;
+            background-color: #ea1463c2;
+            border-radius: 15px;
+            padding: 10px 20px;
+            cursor: pointer;
+            font-size:12px;
+            border: none;
+            
+        }
+        .right{
+            width:50%;
+            
+        }
+        span.green{
+            color:#0b459b;
+        }
+        .left h1{
+            line-height: 50px;
+            font-size:48px;
+        }
+        .left p{
+            margin-top:40px;
+            margin-bottom:40px;
+            color:#555555;
+            font-size:14px;
+        }
+        .copy{
+            padding-top:40px;
+        }
+
+        .right{
+            background-image:url("assets/images/bg1.jpeg");
+            background-size: cover;
+            background-position: center;
+        }
+    </style>
+</head>
+<body>
+    <nav>
+        <p class="logo">Bonsai</p>
+        <ul class="menu">
+            <li>Home</li>
+            <li>Features</li>
+            <li>About</li>
+            <li>Contact Us</li>
+        </ul>
+        <p class="action">
+            Login
+        </p>
+    </nav>
+    <main>
+        <div class="left">
+            <h1>
+                <span class="green">Wellness</span> should be everyone's dream
+            </h1>
+            <p>Finally, the all-in-one practice management tool you've been looking</p>
+            <button>
+                Read More
+            </button>
+            <p class="copy"> Illustration copyright</p>
+        </div>
+        <div class="right">    
+        </div>
+    </main>
+</body>
+</html>
